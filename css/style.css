@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid black;
+    min-width: 96vw;
+    max-width: 96vw;
+    min-height: 10vh;
+    padding: 4vh 2vw 0vh 2vw;
+}
+
+#name {
+    font-size: 30px;
+}
+
+.nav-links {
+    float: right;
+    margin-right: 6vw
+}
+
+.sidebar {
+    display: inline-block;
+    min-height: 78vh;
+    min-width: 30vw;
+    border-right: 1px solid black;
+}
+
+main {
+    position: absolute;
+    display: inline-block;
+    min-width: 69vw;
+    min-height: 78vh;
+}
+
+footer {
+
+    padding: 10px;
+    display: inline-block;
+    min-width: 100vw;
+    border-top: 1px solid black;
+}
+
+#info {
+    font-weight: bold;
+    margin-right: 6vw;
+}
+
+form {
+    margin: 5vh 0vw 0vh 24vw;
+}
+
+form input {
+    display: block;
+    margin-bottom: 3vh;
+}
